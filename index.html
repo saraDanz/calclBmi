@@ -48,7 +48,7 @@
 <body>
     <div class="card p-4 shadow-lg">
         <h2 class="text-center mb-4">טופס הזנת נתונים</h2>
-        <form id="dataForm">
+        <form id="dataForm" action="https://hook.eu2.make.com/vr1b4sa2h9aagwsxykutdan9i3aptv09">
             <div class="mb-3">
                 <label for="height" class="form-label">גובה (ס"מ)</label>
                 <input type="number" id="height" name="height" class="form-control" required>
@@ -62,14 +62,14 @@
     </div>
 
     <script>
-        document.getElementById('dataForm').addEventListener('submit', function(event) {
-            event.preventDefault();
+     /*  document.getElementById('dataForm').addEventListener('submit', function(event) {
+          /*  event.preventDefault();
             const height = document.getElementById('height').value;
             const weight = document.getElementById('weight').value;
             const data = { height, weight };
             console.log(JSON.stringify(data));
-            alert('נשלח JSON: ' + JSON.stringify(data));
-        });
+            alert('נשלח JSON: ' + JSON.stringify(data));*/
+        });*/
     </script>
 </body>
 </html>
